@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import * as exifr from 'exifr/dist/mini.legacy.umd';
+import * as exifr from 'exifr/dist/mini.esm.js';
 
 @Injectable()
 export class ImgExifService {
